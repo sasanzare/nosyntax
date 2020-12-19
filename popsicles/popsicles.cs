@@ -30,12 +30,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoloLearn
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
+namespace SoloLearn{
+    class Program{
+        static void Main(string[] args){
             int siblings, popsicles;
             siblings = Convert.ToInt32(Console.ReadLine());
             popsicles = Convert.ToInt32(Console.ReadLine());
