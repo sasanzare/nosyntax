@@ -23,6 +23,7 @@ A string that says 'give away' if you are giving them away, or 'eat them yoursel
 give away
 
 '''
+
 siblings = int(input())
 popsicles = int(input())
 print("give away" if popsicles%siblings == 0 else "eat them yourself")
