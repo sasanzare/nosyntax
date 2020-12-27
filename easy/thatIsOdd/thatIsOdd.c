@@ -1,5 +1,9 @@
-# That's odd...
+/*
+======= That's odd... =======
 
+======= sasan zare 27/12/2020 =======
+
+======= V 0.01 =======
 
 ======= QUESTION =======
 
@@ -33,3 +37,18 @@ An integer that represents the sum of only the even numbers in the list.
 ======= Sample Output =======
 
 20
+
+*/
+
+#include <stdio.h>
+
+void main()
+{   int i=0,n,m,sum=0;
+    scanf("%d",&n);
+    for(;i<n;i++){
+        scanf("%d",&m);
+        if(m%2 ==0)
+            sum +=m;
+    }
+    printf("\n%d",sum);
+}
