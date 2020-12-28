@@ -42,7 +42,7 @@ An integer that represents the sum of only the even numbers in the list.
 '''
 
 sum=0
-for x in range(int(input())):
+for m in range(int(input())):
     m=int(input())
     if(m%2 ==0):
         sum+=m
