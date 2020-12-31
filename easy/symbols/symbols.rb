@@ -1,4 +1,5 @@
-'''
+=begin
+
 ======= Symbols =======
 
 ======= sasan zare 31/12/2020 =======
@@ -27,7 +28,6 @@ A string of the text with all the symbols removed.
 
 lets go and get lunch
 
-'''
+=end
 
-import re
-print(re.sub('[^a-zA-Z0-9_ ]+', '', input()))
+puts gets.chomp.gsub(/[^a-zA-Z0-9_ -]/s, '')
