@@ -37,8 +37,8 @@ A string that says 'I got this!', 'Help me Batman', or 'Good Luck out there!' de
 input = gets.chomp.to_i
 puts(
   case
-  when input < 5 then "I got this!"
-  when (input>=5 and input<10) then "Help me Batman"
-  else "Good Luck out there!"
+    when input < 5 then "I got this!"
+    when (input>=5 and input<10) then "Help me Batman"
+    else "Good Luck out there!"
   end
 )
