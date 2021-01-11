@@ -25,8 +25,19 @@ give away
 
 */
 
-const siblings  = prompt();
-const popsicles = prompt();
-if(!isNaN(siblings)&& !isNaN(popsicles) ){
- console.log((popsicles%siblings==0)? "give away":"eat them yourself");
-}
+const readline = require("readline");
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question("", function(siblings) {
+    rl.question("", function(popsicles) {
+        console.log((popsicles%siblings==0)? "give away":"eat them yourself");
+        rl.close();
+    });
+});
+
+rl.on("close", function() {
+    process.exit(0);
+});
