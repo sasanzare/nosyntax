@@ -2,9 +2,9 @@
 
 ======= Fruit Bowl =======
 
-======= sasan zare 22/12/2020 =======
+======= sasan zare 12/01/2021 =======
 
-======= V 0.01 =======
+======= V 0.02 =======
 
 ======= QUESTION =======
 
@@ -32,7 +32,17 @@ An integer representing the total number of whole apple pies that you can make.
 
 */
 
-const fruit = prompt();
-if(!isNaN(fruit)){
- console.log(parseInt((fruit/2)/3));
-}
+const readline = require("readline");
+const rl = readline.createInterface({
+	input: process.stdin,
+	output: process.stdout
+});
+
+rl.question("", function(fruit){
+  console.log(parseInt((fruit/2)/3));
+	rl.close();
+});
+
+rl.on("close", function(){
+	process.exit(0);
+});
