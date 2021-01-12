@@ -33,9 +33,19 @@ Pesos
 
 */
 
+const readline = require("readline");
+const rl = readline.createInterface({
+	input: process.stdin,
+	output: process.stdout
+});
 
-const pesos  = prompt();
-const dollars = prompt();
-if(!isNaN(pesos)&& !isNaN(dollars) ){
- console.log((pesos*2)/100< dollars? "Pesos":"Dollars");
-}
+rl.question("", function(pesos){
+    rl.question("", function(dollars){
+        console.log((pesos*2)/100< dollars? "Pesos":"Dollars");
+        rl.close();
+    });
+});
+
+rl.on("close", function(){
+	process.exit(0);
+});
