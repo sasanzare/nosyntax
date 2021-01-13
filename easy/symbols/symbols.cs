@@ -39,7 +39,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
-namespace SoloLearn
+namespace Sasanzare
 {
     class Program
     {

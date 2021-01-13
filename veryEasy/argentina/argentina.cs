@@ -38,7 +38,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoloLearn
+namespace Sasanzare
 {
     class Program
     {
