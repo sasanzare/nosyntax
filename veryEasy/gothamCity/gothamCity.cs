@@ -40,8 +40,7 @@ using System.Threading.Tasks;
 
 namespace Sasanzare
 {
-    class Program
-    {
+    class Program{
         static void Main(string[] args){
             int input = Convert.ToInt32(Console.ReadLine());
             if(input <5)Console.WriteLine("I got this!");

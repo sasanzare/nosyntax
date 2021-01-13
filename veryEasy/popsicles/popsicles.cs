@@ -33,8 +33,7 @@ using System.Threading.Tasks;
 
 namespace Sasanzare
 {
-    class Program
-    {
+    class Program{
         static void Main(string[] args){
             int siblings, popsicles;
             siblings = Convert.ToInt32(Console.ReadLine());
