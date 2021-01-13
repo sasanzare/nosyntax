@@ -1,7 +1,8 @@
 /*
-======= sasan zare 19/12/2020 =======
 
-======= V 0.01 =======
+======= sasan zare 13/01/2021 =======
+
+======= V 0.02 =======
 
 ======= QUESTION =======
 
@@ -30,8 +31,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoloLearn{
-    class Program{
+namespace Sasanzare
+{
+    class Program
+    {
         static void Main(string[] args){
             int siblings, popsicles;
             siblings = Convert.ToInt32(Console.ReadLine());

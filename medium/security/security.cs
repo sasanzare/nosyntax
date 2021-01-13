@@ -4,7 +4,7 @@
 
 ======= sasan zare 13/01/2021 =======
 
-======= V 0.01 =======
+======= V 0.02 =======
 
 ======= QUESTION =======
 
@@ -41,7 +41,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
-namespace sasanzare
+namespace Sasanzare
 {
     class Program
     {

@@ -2,9 +2,9 @@
 
 ======= Symbols =======
 
-======= sasan zare 07/01/2021 =======
+======= sasan zare 13/01/2021 =======
 
-======= V 0.01 =======
+======= V 0.02 =======
 
 There is a problem with your keyboard: it randomly writes symbols when you are typing a text. You need to clean up the text by removing all symbols.
 
@@ -39,7 +39,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Text.RegularExpressions;
-namespace SoloLearn
+namespace Sasanzare
 {
     class Program
     {

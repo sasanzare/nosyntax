@@ -2,9 +2,9 @@
 
 ======= That's odd... =======
 
-======= sasan zare 28/12/2020 =======
+======= sasan zare 13/01/2021 =======
 
-======= V 0.01 =======
+======= V 0.02 =======
 
 ======= QUESTION =======
 
@@ -47,7 +47,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SoloLearn
+namespace Sasanzare
 {
     class Program
     {
