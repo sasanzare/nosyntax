@@ -1,4 +1,4 @@
-=begin
+/*
 
 ======= Skee-Ball =======
 
@@ -31,6 +31,13 @@ A string that say 'Buy it!' if you will have enough tickets, or a string that sa
 
 Buy it!
 
-=end
+*/
 
-puts((gets.chomp.to_i/12 >= gets.chomp.to_i)?"Buy it!":"Try again")
+
+#include <stdio.h>
+
+void main(){
+    int val,val2;
+    scanf("%d%d",&val,&val2);
+    printf((val/12>=val2)?"Buy it!":"Try again");
+}
