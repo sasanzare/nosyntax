@@ -34,10 +34,12 @@ Buy it!
 */
 
 
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 
-void main(){
+int main(){
     unsigned int val,val2;
-    scanf("%d%d",&val,&val2);
-    printf((val/12>=val2)?"Buy it!":"Try again");
+    cin>>val>>val2;
+    cout<<((val/12>=val2)?"Buy it!":"Try again");
+    return 0;
 }
