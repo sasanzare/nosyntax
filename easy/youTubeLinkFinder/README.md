@@ -1,27 +1,28 @@
-# YouTube Link Finder
+# YouTube Link Finder 🎥
 
+A simple tool to extract YouTube video IDs from URLs. Perfect for cleaning up your video links!
 
-======= QUESTION =======
+## ❓ Problem Statement
 
-You and your friends like to share YouTube links all throughout the day. You want to keep track of all the videos you watch in your own personal notepad, but you find that keeping the entire link is unnecessary.  
-Keep the video ID (the combination of letters and numbers at the end of the link) in your notepad to slim down the URL.
+You and your friends like to share YouTube links throughout the day. You want to keep track of all the videos you watch in your personal notepad, but keeping the entire URL is unnecessary.  
+**Solution:** Extract only the video ID (the combination of letters and numbers at the end of the link) to save space.
 
-======= Task  =======
+## 🎯 Task
 
-Create a program that parses through a link, extracts and outputs the YouTube video ID.
+Write a program that parses a YouTube link and extracts the video ID.
 
-======= Input Format =======
+## 📌 Input Format
 
-A string containing the URL to a YouTube video. The format of the string can be in "https://www.youtube.com/watch?v=kbxkaq_w51PM" or the shortened "https://youtu.be/KMBBjzp5hadc" format.
+A string containing a YouTube URL in one of these formats:
+- Full URL: `https://www.youtube.com/watch?v=kbxkaq_w51PM`
+- Shortened URL: `https://youtu.be/KMBBjzp5hadc`
 
-======= Output Format =======
+## 📝 Output Format
 
-A string containing the extracted YouTube video id.
+A string containing the extracted YouTube video ID.
 
-======= Sample Input =======
+## 🔍 Example
 
+### Sample Input
+```plaintext
 https://www.youtube.com/watch?v=RpW2aUSw5uU
-
-======= Sample Output =======
-
-RpW2aUSw5uU
