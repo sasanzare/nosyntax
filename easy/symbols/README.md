@@ -1,25 +1,36 @@
-# Symbols
+# Symbols ⌨️  
 
-======= QUESTION =======
+A tool to clean up text by removing all non-alphanumeric characters, leaving only letters and numbers.  
 
-There is a problem with your keyboard: it randomly writes symbols when you are typing a text. You need to clean up the text by removing all symbols.
+## ❓ Problem Statement  
 
-======= Task  =======
+There is a problem with your keyboard: it randomly writes symbols when you are typing a text. You need to clean up the text by removing all symbols.  
 
-Take a text that includes some random symbols and translate it into a text that has none of them. The resulting text should only include letters and numbers.
+## 🎯 Task  
 
-======= Input Format =======
+Take a text that includes random symbols and filter it to retain only letters (a-z, A-Z) and numbers (0-9).  
 
-A string with random symbols.
+## 📌 Input Format  
 
-======= Output Format =======
+A string containing letters, numbers, and random symbols (e.g., `%`, `@`, `#`, `$`, `*`).  
 
-A string of the text with all the symbols removed.
+## 📝 Output Format  
 
-======= Sample Input =======
+A string with all symbols removed, preserving only alphanumeric characters and spaces.  
 
-%l$e%ts go @an#d@@ g***et #l#unch$$$
+## 🔍 Example  
 
-======= Sample Output =======
+### Sample Input  
+```plaintext  
+%l$e%ts go @an#d@@ g***et #l#unch$$$  
+```  
 
-lets go and get lunch
+### Sample Output  
+```plaintext  
+lets go and get lunch  
+```  
+
+### Notes  
+- Spaces between words are preserved.  
+- Only letters and numbers remain in the output.  
+- Case sensitivity is maintained (uppercase/lowercase letters stay as-is).
