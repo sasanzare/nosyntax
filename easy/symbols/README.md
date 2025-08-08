@@ -29,8 +29,3 @@ A string with all symbols removed, preserving only alphanumeric characters and s
 ```plaintext  
 lets go and get lunch  
 ```  
-
-### Notes  
-- Spaces between words are preserved.  
-- Only letters and numbers remain in the output.  
-- Case sensitivity is maintained (uppercase/lowercase letters stay as-is).
