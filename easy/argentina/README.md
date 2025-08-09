@@ -1,26 +1,36 @@
-# Argentina
+# Argentina  
 
-======= QUESTION =======
+A tool to compare prices in Argentinian Pesos and US Dollars based on the exchange rate.  
 
-You are in a hat store in Argentina! The prices are listed in US Dollars and Argentinian Pesos. You have both, but you want to make sure you pay the lower price! Do you pay in Dollars or Pesos? The exchange rate is 2 cents for every Peso.
+## ❓ Problem Statement  
 
-======= Task  =======
+You are in a store in Argentina! The prices are listed in US Dollars and Argentinian Pesos. You have both currencies, but you want to pay the lower price. The exchange rate is 2 cents for every Peso.  
 
-Create a program that takes two prices and tells you which one is lower after conversion.
+## 🎯 Task  
 
-======= Input Format =======
+Create a program that takes two prices and tells you which one is lower after conversion.  
 
-Two integer values, the first one is the price in Pesos and the second one is the price in Dollars.
+## 📌 Input Format  
 
-======= Output Format =======
+Two integer values:  
+- The first value is the price in **Pesos**.  
+- The second value is the price in **Dollars**.  
 
-A string that says which currency you should make the purchase in ('Dollars' or 'Pesos').
+## 📝 Output Format  
 
-======= Sample Input =======
+A string indicating the cheaper currency:  
+- `"Pesos"` if the Peso price is cheaper after conversion.  
+- `"Dollars"` if the Dollar price is cheaper.  
 
-4000
-100
- 
-======= Sample Output =======
+## 🔍 Example  
 
-Pesos
+### Sample Input  
+```plaintext  
+4000  
+100  
+```  
+
+### Sample Output  
+```plaintext  
+Pesos  
+```  
