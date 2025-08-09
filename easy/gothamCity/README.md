@@ -1,26 +1,37 @@
-# Gotham City
+# Gotham City 🦇  
 
+A crime-fighting decision tool for police officers in Gotham City.  
 
-======= QUESTION =======
+## ❓ Problem Statement  
 
-You are a police officer, and you get a report of criminal activity! Should you go on your own, or should you call a superhero to help you fight the crime? If there are less than 5, you can handle this on your own, if there are 5-10, you will want to go with Batman for backup, and if there are more than 10, you should stay where it is safe and let Batman handle this on his own!
+As a police officer in Gotham City, you must decide whether to handle criminals alone, request Batman's help, or let him handle the situation entirely based on the number of criminals reported.  
 
-======= Task  =======
+## � Task  
 
-Determine whether you need to call backup based on the total number of criminals being reported.
+Determine the appropriate response based on the number of criminals:  
+- Fewer than 5: Handle alone  
+- 5-10: Request Batman's backup  
+- More than 10: Let Batman handle it  
 
-======= Input Format =======
+## 📌 Input Format  
 
-An integer that represents the total number of criminals present at the scene.
+A single integer representing the number of criminals.  
 
-======= Output Format =======
+## 📝 Output Format  
 
-A string that says 'I got this!', 'Help me Batman', or 'Good Luck out there!' depending on the scenario.
+One of three response strings:  
+- `'I got this!'` (for <5 criminals)  
+- `'Help me Batman'` (for 5-10 criminals)  
+- `'Good Luck out there!'` (for >10 criminals)  
 
-======= Sample Input =======
+## 🔍 Example  
 
-7
+### Sample Input  
+```  
+7  
+```  
 
-======= Sample Output =======
-
-'Help me Batman'
+### Sample Output  
+```  
+'Help me Batman'  
+```  
