@@ -1,27 +1,31 @@
-# Extra-Terrestrials
+# Extra-Terrestrials 👽  
 
+A tool to translate English words into alien language by reversing them.  
 
-======= QUESTION =======
+## ❓ Problem Statement  
 
-You meet a group of aliens, and their language is just like English except that they say every word backwards.  
-How will you learn to communicate with them?
+You meet a group of aliens whose language is identical to English except they say every word backwards. To communicate with them, you need to reverse English words.  
 
-======= Task  =======
+## 🎯 Task  
 
-Take a word in English that you would like to say, and turn it into language that these aliens will understand.
+Write a program that takes an English word and returns its reversed version for the aliens to understand.  
 
-======= Input Format =======
+## 📌 Input Format  
 
-A string of a word in English.
+A string representing a single English word (no spaces or punctuation).  
 
-======= Output Format =======
+## 📝 Output Format  
 
-A string of the reversed word that represents the original word translated into alien language.
+The reversed version of the input word.  
 
-======= Sample Input =======
+## 🔍 Example  
 
-howdy
+### Sample Input  
+```  
+howdy  
+```  
 
-======= Sample Output =======
-
-ydwoh
+### Sample Output  
+```  
+ydwoh  
+```  
