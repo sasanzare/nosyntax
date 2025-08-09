@@ -1,26 +1,31 @@
-# Fruit Bowl
+# Fruit Bowl 🍎🍌  
 
+A tool to calculate how many apple pies you can make from the apples in your fruit bowl.  
 
-======= QUESTION =======
+## ❓ Problem Statement  
 
-You have a bowl on your counter with an even number of pieces of fruit in it. Half of them are bananas, and the other half are apples. You need 3 apples to make a pie.  
+You have a bowl with an even number of fruits - half are bananas and half are apples. Each pie requires exactly 3 apples. Determine how many whole pies you can make.  
 
-======= Task  =======
+## 🎯 Task  
 
-Your task is to evaluate the total number of pies that you can make with the apples that are in your bowl given to total amount of fruit in the bowl.
+Calculate the maximum number of complete apple pies (each requiring 3 apples) you can make from the apples in the bowl.  
 
-======= Input Format =======
+## 📌 Input Format  
 
-An integer that represents the total amount of fruit in the bowl.
+A single even integer representing the total number of fruits in the bowl.  
 
-======= Output Format =======
+## 📝 Output Format  
 
-An integer representing the total number of whole apple pies that you can make.
+An integer representing the number of whole apple pies you can make.  
 
-======= Sample Input =======
+## 🔍 Example  
 
+### Sample Input  
+```  
 26  
+```  
 
-======= Sample Output =======
-
-4
+### Sample Output  
+```  
+4  
+```  
