@@ -1,26 +1,43 @@
-# Paint costs
+# Paint Costs 🎨  
 
+A tool to calculate the total cost of your art project including canvas, brushes, paint, and tax.  
 
-======= QUESTION =======
+## ❓ Problem Statement  
 
-You are getting ready to paint a piece of art. The canvas and brushes that you want to use will cost 40.00. Each color of paint that you buy is an additional 5.00. Determine how much money you will need based on the number of colors that you want to buy if tax at this store is 10%.
+You're preparing to paint artwork that requires:  
+- Base cost: $40.00 (canvas + brushes)  
+- Additional cost: $5.00 per paint color  
+- Tax: 10% of total purchase  
 
-======= Task  =======
+Calculate the total project cost rounded up to the nearest whole dollar.  
 
-Given the total number of colors of paint that you need, calculate and output the total cost of your project rounded up to the nearest whole number.
+## 🎯 Task  
 
-======= Input Format =======
+Compute the final cost including tax based on the number of paint colors purchased.  
 
-An integer that represents the number of colors that you want to purchase for your project.
+## 📌 Input Format  
 
-======= Output Format =======
+An integer representing the number of paint colors needed.  
 
-A number that represents the cost of your purchase rounded up to the nearest whole number.
+## 📝 Output Format  
 
-======= Sample Input =======
+An integer representing the total cost rounded up to the nearest whole number.  
 
-10
+## 🔍 Example  
 
-======= Sample Output =======
+### Sample Input  
+```  
+10  
+```  
 
-99
+### Calculation Breakdown  
+1. Base cost: $40.00  
+2. Paint cost: 10 colors × $5.00 = $50.00  
+3. Subtotal: $40 + $50 = $90.00  
+4. Tax (10%): $90 × 0.10 = $9.00  
+5. Total: $90 + $9 = $99.00  
+
+### Sample Output  
+```  
+99  
+```  
