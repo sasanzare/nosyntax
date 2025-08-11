@@ -1,27 +1,29 @@
-# New Driver's License
+# New Driver's License  
 
-======= QUESTION =======
+## ❓ Problem Statement  
+You arrive at the driver's license office simultaneously with 4 other people. The office processes customers alphabetically, taking 20 minutes per license. Multiple agents can process customers simultaneously. Calculate how long it will take for you to get your license.  
 
- You have to get a new driver's license and you show up at the office at the same time as 4 other people. The office says that they will see everyone in alphabetical order and it takes 20 minutes for them to process each new license. All of the agents are available now, and they can each see one customer at a time. How long will it take for you to walk out of the office with your new license?
+## 🎯 Task  
+Determine the total time required for you to obtain your license based on alphabetical order and available agents.  
 
-======= Task  =======
+## 📌 Input Format  
+1. Your name (string)  
+2. Number of available agents (integer)  
+3. Four other names separated by spaces (string)  
 
- Given everyone's name that showed up at the same time, determine how long it will take to get your new license.
+## 📝 Output Format  
+An integer representing the total time in minutes.  
 
-======= Input Format =======
+## 🔍 Example  
 
- Your input will be a string of your name, then an integer of the number of available agents, and lastly a string of the other four names separated by spaces.
+### Sample Input  
+```  
+'Eric'  
+2  
+'Adam Caroline Rebecca Frank'  
+```  
 
-======= Output Format =======
-
- You will output an integer of the number of minutes that it will take to get your license.
-
-======= Sample Input =======
-
- 'Eric'
- 2
- 'Adam Caroline Rebecca Frank'
-
-======= Sample Output =======
-
- 40
+### Sample Output  
+```  
+40  
+```  
