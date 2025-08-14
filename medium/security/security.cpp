@@ -39,7 +39,7 @@ xxxxxGxx$xxxT
 
 using namespace std;
 
-void evaluateSecurity(const string& floor) {
+void security(const string& floor) {
     size_t moneyPos = floor.find('$');
     size_t thiefPos = floor.find('T');
     
@@ -65,6 +65,6 @@ void evaluateSecurity(const string& floor) {
 int main() {
     string floor;
     cin >> floor;
-    evaluateSecurity(floor);
+    security(floor);
     return 0;
 }

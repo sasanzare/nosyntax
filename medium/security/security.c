@@ -38,7 +38,7 @@ xxxxxGxx$xxxT
 #include <stdio.h>
 #include <string.h>
 
-void evaluateSecurity(const char* floor) {
+void security(const char* floor) {
     int moneyPos = -1, thiefPos = -1;
     int len = strlen(floor);
     
@@ -76,6 +76,6 @@ void evaluateSecurity(const char* floor) {
 int main() {
     char floor[1000];
     scanf("%s", floor);
-    evaluateSecurity(floor);
+    security(floor);
     return 0;
 }
